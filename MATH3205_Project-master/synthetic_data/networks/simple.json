@@ -1,0 +1,84 @@
+{
+    "intersections": [
+        {
+            "id": 1,
+            "file_name": "4-way.json",
+            "signal_bounds": [5, 30], 
+            "internal_lim": 30,
+            "connections": [
+                {
+                    "connection id": 0,
+                    "direction": "N", 
+                    "distance": 0.1,
+                    "lanes": 1, 
+                    "speed_lim": 80,
+                    "demand_profile": [3,2]
+                },
+                {
+                    "connection id": 2,
+                    "connection dir": "W",
+                    "direction": "E", 
+                    "distance": 0.2,
+                    "lanes": 2,
+                    "speed_lim": 80
+                },
+                {
+                    "connection id": 0,
+                    "direction": "S", 
+                    "distance": 0.1,
+                    "lanes": 1,
+                    "speed_lim": 80,
+                    "demand_profile": [3,2]
+                },
+                {
+                    "connection id": 0,
+                    "direction": "W", 
+                    "distance": 0.1,
+                    "lanes": 1,
+                    "speed_lim": 80,
+                    "demand_profile": [3,2]
+                }
+            ] 
+        }, 
+        {
+            "id": 2,
+            "file_name": "4-way.json",
+            "signal_bounds": [5, 35],
+            "internal_lim": 30,
+            "connections": [
+                {
+                    "connection id": 0,
+                    "direction": "N", 
+                    "distance": 0.1,
+                    "lanes": 1,
+                    "speed_lim": 80,
+                    "demand_profile": [3,2]
+                },
+                {
+                    "connection id": 0,
+                    "direction": "E", 
+                    "distance": 0.2,
+                    "lanes": 1,
+                    "speed_lim": 80,
+                    "demand_profile": [3,2]
+                },
+                {
+                    "connection id": 0,
+                    "direction": "S", 
+                    "distance": 0.1,
+                    "lanes": 1,
+                    "speed_lim": 80,
+                    "demand_profile": [3,2]
+                },
+                {
+                    "connection id": 1,
+                    "direction": "W", 
+                    "connection dir": "E",
+                    "distance": 0.1,
+                    "lanes": 2,
+                    "speed_lim": 80
+                }
+            ]
+        }
+    ]
+}

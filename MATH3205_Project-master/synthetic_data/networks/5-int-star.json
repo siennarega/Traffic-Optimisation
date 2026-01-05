@@ -1,0 +1,172 @@
+{
+    "intersections": [
+        {
+            "id": 1,
+            "file_name": "4-way.json",
+            "signal_bounds": [5, 30], 
+            "internal_lim": 30,
+            "connections": [
+                {
+                    "connection id": 2,
+                    "connection dir": "E",
+                    "direction": "N", 
+                    "distance": 0.4,
+                    "lanes": 2, 
+                    "speed_lim": 80
+                },
+                {
+                    "connection id": 3,
+                    "connection dir": "E",
+                    "direction": "E", 
+                    "distance": 0.5,
+                    "lanes": 2,
+                    "speed_lim": 80
+                },
+                {
+                    "connection id": 4,
+                    "connection dir": "E",
+                    "direction": "S", 
+                    "distance": 0.6,
+                    "lanes": 2,
+                    "speed_lim": 80
+                },
+                {
+                    "connection id": 5,
+                    "connection dir": "E",
+                    "direction": "W", 
+                    "distance": 0.7,
+                    "lanes": 2,
+                    "speed_lim": 80
+                }
+            ] 
+        }, 
+        {
+            "id": 2,
+            "file_name": "3-way.json",
+            "signal_bounds": [5, 35],
+            "internal_lim": 30,
+            "connections": [
+                {
+                    "connection id": 0,
+                    "direction": "N", 
+                    "distance": 0.3,
+                    "lanes": 1,
+                    "speed_lim": 80,
+                    "demand_profile": [3,2]
+                },
+                {
+                    "connection id": 1,
+                    "connection dir": "N",
+                    "direction": "E", 
+                    "distance": 0.4,
+                    "lanes": 2,
+                    "speed_lim": 80
+                },
+                {
+                    "connection id": 0,
+                    "direction": "S", 
+                    "distance": 0.3,
+                    "lanes": 1,
+                    "speed_lim": 80,
+                    "demand_profile": [3,2]
+                }
+            ]
+        }, 
+        {
+            "id": 3,
+            "file_name": "3-way.json",
+            "signal_bounds": [5, 35],
+            "internal_lim": 30,
+            "connections": [
+                {
+                    "connection id": 0,
+                    "direction": "N", 
+                    "distance": 0.3,
+                    "lanes": 1,
+                    "speed_lim": 80,
+                    "demand_profile": [3,2]
+                },
+                {
+                    "connection id": 1,
+                    "direction": "E", 
+                    "connection dir": "E",
+                    "distance": 0.5,
+                    "lanes": 2,
+                    "speed_lim": 80
+                },
+                {
+                    "connection id": 0,
+                    "direction": "S", 
+                    "distance": 0.3,
+                    "lanes": 1,
+                    "speed_lim": 80,
+                    "demand_profile": [3,2]
+                }
+            ]
+        }, 
+        {
+            "id": 4,
+            "file_name": "3-way.json",
+            "signal_bounds": [5, 35],
+            "internal_lim": 30,
+            "connections": [
+                {
+                    "connection id": 0,
+                    "direction": "N", 
+                    "distance": 0.3,
+                    "lanes": 1,
+                    "speed_lim": 80,
+                    "demand_profile": [3,2]
+                },
+                {
+                    "connection id": 1,
+                    "connection dir": "S",
+                    "direction": "E", 
+                    "distance": 0.6,
+                    "lanes": 2,
+                    "speed_lim": 80
+                },
+                {
+                    "connection id": 0,
+                    "direction": "S", 
+                    "distance": 0.3,
+                    "lanes": 1,
+                    "speed_lim": 80,
+                    "demand_profile": [3,2]
+                }
+            ]
+        }, 
+        {
+            "id": 5,
+            "file_name": "3-way.json",
+            "signal_bounds": [5, 35],
+            "internal_lim": 30,
+            "connections": [
+                {
+                    "connection id": 0,
+                    "direction": "N", 
+                    "distance": 0.3,
+                    "lanes": 1,
+                    "speed_lim": 80,
+                    "demand_profile": [3,2]
+                },
+                {
+                    "connection id": 1,
+                    "connection dir": "W",
+                    "direction": "E", 
+                    "distance": 0.7,
+                    "lanes": 2,
+                    "speed_lim": 80
+                },
+                {
+                    "connection id": 0,
+                    "direction": "S", 
+                    "distance": 0.3,
+                    "lanes": 1,
+                    "speed_lim": 80,
+                    "demand_profile": [3,2]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,18 @@
+{
+    "phases": 3,
+    "link_keys": ["N", "E", "S"],
+    "connections": [
+        {
+            "incoming_dir": "N",
+            "connecting_dirs": ["E", "S"]
+        },
+        {
+            "incoming_dir": "E",
+            "connecting_dirs": ["N", "S"]
+        },
+        {
+            "incoming_dir": "S",
+            "connecting_dirs": ["N", "E"]
+        }
+    ]
+}
